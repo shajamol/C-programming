@@ -10,20 +10,20 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-    int a=27;
-    int b=34;
-    int c=22;
-    if(a>b&&a>c){
-        printf("a is larger");
+    int x=4;
+    int y=-5;
+    if(x>0&&y>0){
+    printf("1st quadrant");
     }
-    else if(b>c){
-        printf("b is larger");
+    else if(x<0&&y>0){
+        printf("2nd quadrant");
+    }
+    else if(x<0&&y<0){
+        printf("3rd quadrant");
     }
     else{
-        printf("c is larger");
+        printf("4rth quadrant");
     }
-        
-    
 
     return 0;
 }

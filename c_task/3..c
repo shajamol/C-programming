@@ -10,19 +10,18 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-    int a=27;
-    int b=34;
-    int c=22;
-    if(a>b&&a>c){
-        printf("a is larger");
+    int x=8;
+    int y=12;
+    int z=10;
+    if(x==y&&y==z){
+    printf("It is a equilateral triangle");
     }
-    else if(b>c){
-        printf("b is larger");
+    else if(x==y&&y!=z){
+        printf("It is a isosceles triangle");
     }
     else{
-        printf("c is larger");
+        printf("It is a scalene triangle");
     }
-        
     
 
     return 0;
